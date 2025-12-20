@@ -102,15 +102,6 @@ Contains complete pipeline:
 - Model training
 - Prediction and export
 
-### Submission File (`submissions/final_submission.csv`)
-Format:
-```csv
-id,labels
-0,148,199,65
-1,220,32,64
-...
-```
-
 ## 🛠️ Reproducibility
 
 All random seeds are fixed:
@@ -124,7 +115,7 @@ torch.cuda.manual_seed_all(42)
 To reproduce results:
 1. Use the same environment (Python 3.8+, package versions in notebook)
 2. Run `notebooks/final_v4_model.ipynb` from start to finish
-3. Results should match `submissions/final_submission.csv`
+3. Results should match `outputs/2025951018_final.csv`
 
 ## 📚 References
 
