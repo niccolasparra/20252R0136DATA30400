@@ -17,7 +17,7 @@ This project implements a hierarchical multi-label text classification system fo
 ├── README.md                    # This file
 ├── notebooks/
 │   └── final_v4_model.ipynb    # Main notebook with final implementation
-├── submissions/
+├── output/
 │   └── final_submission.csv    # Best Kaggle submission (score 0.20+)
 ├── data/                        # Dataset (provided separately)
 │   ├── train/
@@ -77,7 +77,7 @@ pip install transformers torch scikit-learn pandas networkx sentence-transformer
 | Version | Strategy | Kaggle Score | Unique Classes |
 |---------|----------|--------------|----------------|
 | V1 | BERT + threshold 0.4 | 0.08 | 9 |
-| V2 | TF-IDF hybrid | 0.19 | 472 |
+| V2 | TF-IDF hybrid | 0.08 | 472 |
 | V3 | Optimized silver labels | 0.20 | ~500 |
 | **V4** | **Adaptive + no threshold** | **0.20+** | **529** |
 
@@ -128,21 +128,9 @@ To reproduce results:
 
 ## 📚 References
 
-- Project requirements: [Final Project PDF](https://example.com/link)
+- Project requirements: [Final Project PDF](https://niccolasparra.com/DataAnalyticsReport.pdf)
 - Base paper: Mao et al. - "Hierarchical Text Classification with Label GCN"
 - BERT: Devlin et al. - "Pre-training of Deep Bidirectional Transformers"
-
-## 🎯 Kaggle Submission
-
-### File Location
-`submissions/final_submission.csv`
-
-### Submission Checklist
-- [x] CSV format correct (id, labels)
-- [x] All 19,658 test samples included
-- [x] Each sample has 2-3 labels
-- [x] Team name set to AWS account ID
-- [x] File named: `studentID_final.csv` for upload
 
 ### GitHub Repository
 - URL: https://github.com/niccolasparra/20252R0136DATA30400
@@ -153,6 +141,7 @@ To reproduce results:
 
 For questions about this implementation:
 - GitHub: @niccolasparra
+- email: contact@niccolasparra.com
 
 ---
 
